@@ -126,3 +126,9 @@ p {
 .content {
   margin: 30px;
 }
+.content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 16px;
+  padding-bottom: 9px;
+}
