@@ -47,7 +47,7 @@ font-family: "Poppins", sans-serif; */
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-a:hover {
+.hero a:hover {
   color: black;
 }
 .projects {
@@ -167,4 +167,49 @@ nav a:hover {
 }
 nav li.active a {
   color: #6c63ff;
+}
+footer {
+  margin: 60px 0px;
+}
+footer .email-link-footer {
+  text-decoration: none;
+  text-align: center;
+  color: var(--branding-text-color);
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+footer .email-link-footer:hover {
+  color: #6c63ff;
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  color: #6c63ff;
+  background: #f9f7fe;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: #6c63ff;
+}
+footer .contact-box {
+  background-color: #f9f7fe;
+  padding: 40px 120px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.contact-box p {
+  margin: 0;
+}
+
+h4 {
+  color: var(--branding-text-color);
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
 }
